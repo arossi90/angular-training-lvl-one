@@ -1,5 +1,5 @@
 FROM node:8-alpine
-LABEL maintainer="Clevertech DevOps <support@clevertech.biz>"
+LABEL maintainer="docker test"
 
 # Update OS
 RUN apk --no-cache add openjdk7-jre git make gcc g++ python build-base ca-certificates && update-ca-certificates
