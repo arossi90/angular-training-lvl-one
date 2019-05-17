@@ -11,5 +11,4 @@ WORKDIR /opt/app
 COPY . /opt/app
 
 RUN touch .env
-RUN npm run bootstrap
 RUN npm run build
