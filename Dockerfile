@@ -11,5 +11,5 @@ WORKDIR /opt/app
 COPY . /opt/app
 
 RUN touch .env
-RUN npm run install
+RUN npm install
 RUN npm run build
