@@ -4,6 +4,9 @@
 /dist
 /tmp
 /out-tsc
+/release
+/angular-training-win32-x64
+/angular_build
 
 # dependencies
 /node_modules

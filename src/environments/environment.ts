@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   API: {
     wikiURL: 'https://en.wikipedia.org/w/api.php',
-    quotes: 'https://talaikis.com/api/quotes/random/'
+    quotes: 'https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=JSONP_CALLBACK'
   }
 };
 
@@ -18,3 +18,17 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/**
+ * How to run different environments:
+ * For production environment
+ * ng build --prod
+ *
+ * For dev environment
+ * ng build
+ *
+ * For qa environment (it has to match angular.json config)
+ * ng build --configuration=qa
+ *
+ */
